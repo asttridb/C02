@@ -6,7 +6,7 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 14:46:05 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/24 09:27:45 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 14:14:05 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,4 @@ char	*ft_strcpy(char *dest, char*src)
 	}
 	dest[i] = '\0';
 	return (dest);
-}
-
-int	main(void)
-{
-	char	*ft_strcpy(char *dest, char *src);
 }

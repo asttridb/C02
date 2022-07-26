@@ -6,13 +6,13 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 09:44:08 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/24 10:01:45 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 14:40:28 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_uppercase(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -22,9 +22,4 @@ int	ft_str_is_uppercase(char *str)
 		i++;
 	}
 	return (1);
-}
-
-int	main(void)
-{
-	int	ft_str_is_uppercase(char *str);
 }

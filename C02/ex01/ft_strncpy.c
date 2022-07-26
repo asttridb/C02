@@ -6,11 +6,11 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/19 16:16:07 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/24 09:32:01 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 14:23:23 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strncpy(char *dest, const char *src, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int	i;
 
@@ -21,17 +21,12 @@ char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 		i++;
 	}
 	if (i < n && src[i] == '\0')
-		{
+	{
 		while (dest[i] != '\0')
 		{		
 			dest[i] = '\0';
 			i++;
-		}
-	}	
-		return (dest);
-}
-
-int	main(void)
-{
-	char	*ft_strcpy(char *dest, char *src, unsigned int n);
+		}	
+	}
+	return (dest);
 }

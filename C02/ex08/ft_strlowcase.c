@@ -6,7 +6,7 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 10:05:30 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/24 10:19:40 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 14:45:54 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,9 @@ char	*ft_strlowcase(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'A' && str[i] <= 'Z')
-		(str[i] += -'A' + 'a' );
+		if (str[i] >= 65 && str[i] <= 90)
+		(str[i] += 32);
 	i ++;
 	}
 	return (str);
-}
-
-int	main(void)
-{
-	char	*ft_strlowcase(char *str);
 }

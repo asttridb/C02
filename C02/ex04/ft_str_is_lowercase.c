@@ -6,14 +6,15 @@
 /*   By: abeaulat <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/23 16:31:22 by abeaulat          #+#    #+#             */
-/*   Updated: 2022/07/23 16:50:23 by abeaulat         ###   ########.fr       */
+/*   Updated: 2022/07/26 14:36:18 by abeaulat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_uppercase(char *str)
 {
-	int i = 0;
+	int	i;
 
+	i = 0;
 	while (str[i])
 	{
 		if ((str[i] >= 'a') && (str[i] <= 'z'))
@@ -22,9 +23,4 @@ int	ft_str_is_uppercase(char *str)
 			return (0);
 	}
 	return (1);
-}
-
-int	main(void)
-{
-	int	ft_str_is_uppercase(char *str);
 }
